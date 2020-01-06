@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+*::-webkit-scrollbar {
+  width: 0;
+}
+input::-webkit-input-placeholder {
+}
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+#root > div {
+  height: 100%;
+}
